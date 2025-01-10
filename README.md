@@ -124,16 +124,7 @@ This project aims to predict the price of a diamond using various independent va
 ### 7. Requirements
 - **requirements.txt**: Lists all the dependencies and libraries required for the project, including Flask, scikit-learn, pandas, etc.
 
----
 
-## Model Performance
-
-During model training, multiple regression models were evaluated based on the `r2_score` metric. Below are the results for each model:
-
-```plaintext
- Model Report : {'LinearRegression': 0.9344523096065713, 'Lasso': 0.934468560543525, 'Ridge': 0.9344522047348359, 'ElasticNet': 0.8536173350575074, 'DecisionTree': 0.9581454114033142}
- Best Model name : DecisionTree, R2 Score : 0.9581454114033142
-```
 
 The **Gadient Boost Regressor** was selected as the best-performing model with an R² score of **0.9794**.
 
