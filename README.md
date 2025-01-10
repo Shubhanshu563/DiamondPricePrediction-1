@@ -126,7 +126,7 @@ This project aims to predict the price of a diamond using various independent va
 
 
 
-The **Gadient Boost Regressor** was selected as the best-performing model with an R² score of **0.9794**.
+The **Gradient Boost Regressor** was selected as the best-performing model with an R² score of **0.9794**.
 
 ---
 
